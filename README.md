@@ -1,6 +1,7 @@
 # TODO application
 We need to build a basic application with following features
-- [ ] hardcoded list of todo items
+- [x] hardcoded list of todo items
+- [ ] load static data for todo list item
 
 
 ## Learnings
