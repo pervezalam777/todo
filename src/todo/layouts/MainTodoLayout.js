@@ -3,35 +3,20 @@
 // the following is default import
 import React from 'react';
 
-// The following is named import
-import { data as listInputData } from '../data';
+import TodoListContainerComponent from '../components/TodoListContainerComponent';
 
 // NOTE: following is functional component
 // functional component can be state full and state less
 // if functional component use any hook then it is state full.
 // if it totally depends on props then it is state less
 function MainTodoLayout() {
-
-  function renderListItems() {
-    return listInputData.map((todoItem) => {
-      return (
-        <li key={todoItem.id}>{todoItem.desc}</li>
-      )
-    })
-  }
-
   return (
     <section>
       <header>
         <h1>Basic todo app</h1>
       </header>
       <main>
-        <ul>
-          {
-            // Javascript code goes here
-            renderListItems()
-          }
-        </ul>
+        <TodoListContainerComponent />
       </main>
       <footer>@example.com</footer>
     </section>

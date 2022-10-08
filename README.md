@@ -1,7 +1,8 @@
 # TODO application
 We need to build a basic application with following features
 - [x] hardcoded list of todo items
-- [ ] load static data for todo list item
+- [x] load static data for todo list item
+- [x] refactor code so that it has separate component with well structure
 
 
 ## Learnings
@@ -10,6 +11,26 @@ We need to build a basic application with following features
 - if functional component use any hook then it is state full.
 - if it totally depends on props then it is state less
 
+## `Props are Read-Only`
+- `Object.freeze`:
+- `Object.seal`: 
+
+## folder structure
+- `layout component`: 
+  - layout component should only render skeleton 
+  - should not implement any business logic (e.g. loading data, using data)
+- `container component`: 
+  - container component should use loaded data to render child components
+  - it should not have any specific UI
+  - it should control or use business logic to interact with outer world
+- `component`:
+  - component should only render html
+  - heavily depend on the props for any functionality
+  - it should be dumb component that only and only depends on props
+  - also know as presentation component
+
+## React covered Topics
+- [component and props](https://reactjs.org/docs/components-and-props.html)
 
 ## Available Scripts
 
