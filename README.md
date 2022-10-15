@@ -3,6 +3,11 @@ We need to build a basic application with following features
 - [x] hardcoded list of todo items
 - [x] load static data for todo list item
 - [x] refactor code so that it has separate component with well structure
+- [x] Closure function : 
+- [x] Hooks for state management
+  - [x] useState hook:
+      - it takes initial state while calling itself
+- [x] Manage state in TODO
 
 
 ## Learnings
@@ -23,11 +28,13 @@ We need to build a basic application with following features
   - container component should use loaded data to render child components
   - it should not have any specific UI
   - it should control or use business logic to interact with outer world
+  - container component should only interact with hooks for business logic
 - `component`:
   - component should only render html
   - heavily depend on the props for any functionality
   - it should be dumb component that only and only depends on props
   - also know as presentation component
+  - component can use hooks for UI logic
 
 ## React covered Topics
 - [component and props](https://reactjs.org/docs/components-and-props.html)

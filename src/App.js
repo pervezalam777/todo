@@ -1,4 +1,5 @@
 import TODO from './todo';
+import './learnings'
 import './App.css';
 
 function App() {
