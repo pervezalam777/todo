@@ -8,6 +8,12 @@ We need to build a basic application with following features
   - [x] useState hook:
       - it takes initial state while calling itself
 - [x] Manage state in TODO
+- [ ] Use event to manipulate todo items
+  - [x] Mark as inactive
+  - [x] Mark as active
+  - [ ] Edit text
+  - [ ] remove or delete
+
 
 
 ## Learnings
