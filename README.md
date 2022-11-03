@@ -11,9 +11,12 @@ We need to build a basic application with following features
 - [ ] Use event to manipulate todo items
   - [x] Mark as inactive
   - [x] Mark as active
-  - [ ] Edit text
+  - [x] Edit text : user can only edit if it is in active state
   - [ ] remove or delete
+- [ ] Add new todo
+- [ ] Preserve todo list in LocalStorage
 
+- [ ] ***Fetch and send todo list to server
 
 
 ## Learnings
@@ -42,8 +45,19 @@ We need to build a basic application with following features
   - also know as presentation component
   - component can use hooks for UI logic
 
+
+## Controlled form elements ? re-render check ??
+
+
+## Uncontrolled form elements? re-render check ??
+when react do not re-render the application on form element data change
+- [x] without useRef 
+- [ ] with useRef
+
 ## React covered Topics
 - [component and props](https://reactjs.org/docs/components-and-props.html)
+
+## UseRef ?
 
 ## Available Scripts
 
